@@ -1,539 +1,108 @@
 @font-face {
     font-family:"IRANsans";
-    src: url("font/FontsFree-Net-ir_sans.ttf");
+    src: url("../font/FontsFree-Net-ir_sans.ttf");
 }
 body{
-    font-family: IRANsans;
+    font-family: "IRANsans";
     position: relative;
-
+    margin: 0;
+    
     background: #FFFFFF;
+}
+button{
+    font-family: 'IRANsans';
+}
+.arm{
+    margin: 20px ;
+}
+.head{
+    display: flex;
 
 }
 .search{
-    border: 2px solid #D2D3D6;
-    position: absolute;
     width: 600px;
     height: 44px;
-    left: 580px;
-    top: 24px;
+    background: rgba(210, 211, 214, 0.4);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    font-size: 10px;
-}
-.search2{
-    background-color:#D2D3D6 ;
-    border: #FFFFFF;
-}
-
-#form{
-    margin: 10px;
-
-}
-.sr{
-    font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 27px;
-margin: 10PX;
-text-transform: capitalize;
-}
-.login{
-    box-sizing: border-box;
-    position: absolute;
-
-    width: 134px;
-    height: 40px;
-    left: 120px;
-    top: 20px;
-    background: #FFFFFF;
-    border: 1px solid #243A73;
-    border-radius: 20px;
-    justify-content: center;
-}
-.btn{
-    margin-bottom: 10px;
-    margin-top: 7px;
-    margin-right: 25px;
+    margin: 30px;
     border: none;
-    background: none;
+
 }
-/*.bm{
-    background: none;
+.btn-log{
+    width: 134px;
+    height: 44px;
+    background: #243A73;
+    border-radius: 24px;
+    color: #FFFFFF;
+    margin-right: 250px;
+    margin-top: 40px;
+}
+.btn-cart{
+    border: none;
+    background:none;
+    color: #243A73;
+    font-size: 3em;
+    margin-right: 50px;
+    margin-top: 20px
+}
+.hr1{
+    width: 800px;
+    margin: auto;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.laptop{
+    padding: 0 40px 0 40px;
+}
+.head{
+    width: 100%;
+}
+.btn-head{
+    width: 222px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
     color: #243A73;
     position: absolute;
-    top:7px;
-    left: 70px;
-    font-size: 2.5em;
-}*/
-.hr1{
-    color: #9DA0A7CC;
-    position: relative;
-    top: 100px;
-    width: 900px;
-}
-.bi{
-    margin: 10px;
-}
-.mt1{
-    position: relative;
-    top: 120px;
-    right: 250px;
-
-
-    display: inline-flex;
+    left: 56px;
+    top: 550px;
+    border: 1px solid black;
 
 }
-.bl{
-    font-size: 1.5em;
-}
-.mt2{
-    margin-right: 0px;
-    font-size: 15px;
-    margin-top: 0px;
-    background: none;
-    border: none;
-}
-.mt3{
-    margin-right: 35px;
-    font-size: 15px;
-    position: relative;
-    margin-top: 0px;
-    background: none;
-    border: none;
-}
-.mt4{
-    margin-right: 35px;
-    font-size: 15px;
-    position: relative;
-    margin-top: 0px;
-    background: none;
-    border: none;
-}
-
-.mt5{
-    margin-right: 35px;
-    font-size: 15px;
-    position: relative;
-    margin-top: 0px;
-    background: none;
-    border: none;
-
-}
-.sabad{
-    border: none;
-    background: none;
-    color:#243A73 ;
+.head-icon{
+    padding: 10px;
     position: absolute;
-    top:10px;
-    left: 30px;
-    font-size: 2.5em;
+    top: 8px;
 }
-
-.aks{
-    position: absolute;
-    width: 1358px;
-    height: 484px;
-    margin-left: 5px;
-    top: 205px;
-    background: rgba(0, 0, 0, 0.5);
+.etemad{
+    display: flex;
+    justify-content: center;
 }
-.tozih{
-    position: absolute;
-    width: 392px;
-    height: 132px;
-    left: 950px;
-    top: 801px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 38px;
-    text-align: center;
-    color: #000000;
-    border: 1px solid #FFFFFF;
-
-
-
-}
-
-
-.gua {
-    position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 750px;
-    top: 781px;
-    border-radius: 100%;
-    background: #E4E9F6;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-.png1{
-    position: absolute;
-    top: 33px;
-    left: 35px;
-}
-.bime {
-    position: absolute;
-    width: 190px;
-    height: 138px;
-    left: 718px;
-    top: 845px;
-
-    background: #FFFFFF;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.25);
-    text-align: center;
-
-}
-.bime2{
-    position: relative;
-    top: 50px;
-
-}
-.bime4{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
-    text-align: center;
-    color: #6C6A67;
-    position: absolute;
-    top: 90px;
-    left: 44px;
-
-}
-.dea{
-    position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 532px;
-    top: 780px;
-    z-index: 1;
-    background: #E4E9F6;
-    border-radius: 100%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-.png2{
-     position: absolute;
-    top: 33px;
-    left: 35px;
-}
-.de{
-      position: absolute;
-    width: 190px;
-    height: 138px;
-    left: 500px;
-    top: 845px;
-
-    background: #FFFFFF;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.25);
-    text-align: center;
-}
-.de2{
-     position: relative;
-    top: 50px;
-}
-.de3{
-      font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
-    text-align: center;
-    color: #6C6A67;
-    position: absolute;
-    top: 90px;
-    left: 44px;
-
-}
-.rea{
-      position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 313px;
-    top: 780px;
-    z-index: 1;
-    background: #E4E9F6;
-    border-radius: 100%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-.png3{
-     position: absolute;
-    top: 31px;
-    left: 35px;
-}
-.re{
-     position: absolute;
-    width: 190px;
-    height: 138px;
-    left: 282px;
-    top: 845px;
-
-    background: #FFFFFF;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.25);
-    text-align: center;
-}
-.re2{
-       position: relative;
-    top: 50px;
-}
-.re3{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
-    text-align: center;
-    color: #6C6A67;
-    position: absolute;
-    top: 90px;
-    left: 25px;
-}
-.sup{
-      position: absolute;
-    width: 128px;
-    height: 128px;
-    left: 91px;
-    top: 780px;
-    z-index: 1;
-    background: #E4E9F6;
-    border-radius: 100%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
-.png4{
-     position: absolute;
-    top: 18px;
-    left: 18px;
-}
-.su{
-     position: absolute;
-    width: 190px;
-    height: 138px;
-    left: 64px;
-    top: 845px;
-
-    background: #FFFFFF;
-    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.25);
-    text-align: center;
-}
-.su2{
-       position: relative;
-    top: 50px;
-}
-.su3{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 24px;
-    text-align: center;
-    color: #6C6A67;
-    position: absolute;
-    top: 90px;
-    left: 37px;
-}
-.arrow1{
-    position: absolute;
-    left: 0px;
-    top: 800px;
-    border: none;
-    background: none;
-    font-size: 2.5em;
-}
-.aks2{
-    position: absolute;
-    width: 1358px;
-    height: 480px;
-
-    top: 1007px;
-
-    background: rgba(0, 0, 0, 0.5);
-    margin: 0;
-}
-.harag{
-    position: absolute;
-    width: 120px;
-    height: 47px;
-    left: 1160px;
-    top: 1552px;
-
-    font-family: 'IRANSans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 47px;
-    text-align: right;
-
-    color: #000000;
-
-
-}
-.harag2{
-    position: absolute;
-    width: 1200px;
-    height: 300px;
-    left: 78px;
-    top: 1632px;
-
-    background: rgba(224, 225, 227, 0.2);
-    border-radius: 20px;
-}
-.harag3 {
-    position: relative;
-    top: 18px;
-    width: 302px;
-    height: 266px;
-    right: 20px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-}
-.jpg1{
-    width: 130.25px;
-    height: 150px;
-    justify-items: center;
-    position: relative;
-    top: 15px;
-    right: 82px;
-}
-.hr2{
-    border: 1px solid #E6E6E6;
-    position: relative;
-    top: 15px;
-}
-.ipad{
-    position: relative;
-    right: 20px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-
-    text-align: right;
-    color: #000000;
-
-
-}
-.ipad2{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-
-    color: #000000;
-    position: relative;
-    right: 10px;
-    bottom: 25px;
-
-}
-.ipad3{
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: #B9B9B9;
-    position: relative;
-    bottom: 90px;
-    right: 160px;
-
-
-}
-#link{
-    text-decoration: none;
-}
-.harag5{
-    position: absolute;
-    bottom: 18px;
-    width: 302px;
-    height: 266px;
-    right: 360px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
-}
-.jpg2{
-       width: 130.25px;
-    height: 150px;
-    justify-items: center;
-    position: relative;
-    top: 15px;
-    right: 82px;
-}
-.ult1{
-    position: relative;
-    right: 20px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    top: 13px;
-    text-align: right;
-    color: #000000;
-
-}
-.ult2{
-     font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 27px;
-
-    color: #000000;
-    position: relative;
-    right: 10px;
-    top: 25px;
-}
-.ult3{
-     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 27px;
-    top: 25px;
-    color: #B9B9B9;
-    position: relative;
-    right: 15px;
-}
-.apple{
-    position: absolute;
-    width: 85.07px;
-    height: 81px;
-    left: 2px;
-
-}
-.logo{
-    height: 100px;
-    background: #FFFFFF;
-    position: absolute;
-    top: 1950px;
-    width: 1200px;
-    right:75px ;
-}
-.sam{
-    width: 76.06px;
-    height: 40px;
-    position: absolute;
-    left: 90px;
-    top: 25px;
-}
-.nikon{
-    width: 68.24px;
-    height: 20px;
-    background-color: #FFFFFF;
-    position: absolute;
-    left: 180px;
-    top: 30px;
-}
-.sr3{
-    border: none;
-    position: absolute;
-
-    width: 600px;
-
-    height: 44px;
-
-    left: 635px;
-
-    top: 24px;
-
-    background: rgba(210, 211, 214, 0.4);
-    border-radius: 20px;
+.png-bime{
+    width: 92px;
+    height: 92px;
     
+}
+.bime{
+    background: #F1F4FB;
+    border-radius: 8px;
+    width: 190px;
+    height: 182px;
+    text-align: center;
+    font-style: normal;
+    margin: 120px;
 
 }
-.bs{
+.bime1{
 
+}
+.bime-2{
+    color: #6C6A67;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 25px;
 }
