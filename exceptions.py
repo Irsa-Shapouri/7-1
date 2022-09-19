@@ -1,0 +1,3 @@
+class ExceptionHandler(Exception):
+    pass
+
